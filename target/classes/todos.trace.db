@@ -1,0 +1,9 @@
+2023-07-31 16:31:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+delete from todolist where id = ? [42104-214]
+2023-07-31 16:46:39 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into todolist(todo, status, priority) values('Finish Project', ''IN [*]PROGRESS' , 'HIGH'')"; expected "("; SQL statement:
+insert into todolist(todo, status, priority) values('Finish Project', ''IN PROGRESS' , 'HIGH'') [42001-214]
+2023-07-31 17:02:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TODOLIST" not found (this database is empty); SQL statement:
+select * from todolist [42104-214]
